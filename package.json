@@ -1,0 +1,28 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cool-monsoon/ajs-homeworks-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cool-monsoon/ajs-homeworks-webpack/issues"
+  },
+  "homepage": "https://github.com/cool-monsoon/ajs-homeworks-webpack#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4"
+  },
+  "dependencies": {
+    "core-js": "^3.30.1"
+  }
+}
